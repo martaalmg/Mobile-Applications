@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="@string/signup"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F8928B"
+                android:textSize="45sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:text="@string/nameu"
+                android:textAlignment="gravity"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/signUpName"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:text="@string/mail"
+                android:textAlignment="gravity"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/signUpEmail"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:text="@string/password"
+                android:textAlignment="gravity"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/signUpPassword"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:text="@string/language"
+                android:textAlignment="gravity"
+                android:textSize="22sp"/>
+
+            <Spinner
+                android:id="@+id/signUpLanguage"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:entries="@array/languages"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:text="@string/telefono"
+                android:textAlignment="gravity"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/signUpNumber"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:text="@string/preferences"
+                android:textAlignment="gravity"
+                android:textSize="22sp"/>
+
+            <RadioGroup
+                android:id="@+id/preferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/socialbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social"/>
+
+                <RadioButton
+                    android:id="@+id/culturalbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cultural"/>
+
+                <RadioButton
+                    android:id="@+id/nightlifebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nightlife" />
+
+                <RadioButton
+                    android:id="@+id/sportsbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport"/>
+
+                <RadioButton
+                    android:id="@+id/restaurantbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/restaurant"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#F8928B"
+                android:text="@string/back"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#F8928B"
+                android:text="@string/enter"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

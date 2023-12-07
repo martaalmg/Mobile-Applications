@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">BIENVENIDO</string>
+    <string name="app_name">HOME FAR FROM HOME</string>
+    <string name="login">Acceso</string>
+    <string name="signup">Registro</string>
+    <string name="invited">Entrar como invitado</string>
+    <string name="nameu">Escriba su nombre de usuario</string>
+    <string name="mail">Escriba su correo electrónico</string>
+    <string name="telefono">Escriba su número de teléfono</string>
+    <string name="preferences">Elija sus preferencias</string>
+    <string name="sport">Deportes</string>
+    <string name="restaurant">Restaurantes</string>
+    <string name="cultural">Cultural</string>
+    <string name="social">Social</string>
+    <string name="nightlife">Ocio nocturno</string>
+    <string name="language">Escriba su idioma</string>
+    <string name="password">Escriba su contraseña</string>
+    <string name="confirm_password">Confirme su contraseña</string>
+    <string name="remember">Recordarme</string>
+    <string name="forgot">¿Olvidó su contraseña?</string>
+    <string name="back">Volver a la página inicial</string>
+    <string name="enter">Aceptar</string>
+    <string name="accept">Aceptar términos y condiciones</string>
+    <string name="events">Eventos para sentirte en casa</string>
+    <string name="profilebutton">Perfil</string>
+    <string name="map">Mapa</string>
+    <string name="profile">Tu perfil</string>
+    <string name="welcome_events">"Bienvenido usuario "</string>
+    <string name="hello_profile">"Hola "</string>
+    <string name="profile_language">"Cambiar idioma: "</string>
+    <string name="es">Español</string>
+    <string name="en">Inglés</string>
+    <string name="arrive">¿Cómo llegar?</string>
+    <string name="fav">Añadir evento a favoritos</string>
+    <string name="logOut">Cerrar sesión</string>
+    <string name="no_favs">No tiene ningun evento en favoritos</string>
+    <string name="yes_favs">Tus eventos favoritos</string>
+    <string name="eventsBut">Añade eventos aqui!</string>
+    <string name="removeFav">Eliminar de favoritos</string>
+    <string name="backEvents">eventos</string>
+</resources>
